@@ -1,0 +1,623 @@
+
+/*<!-- 医学顶部 -->*/
+.Medical_top{
+    width: 100%;
+    height: 900px;
+    background-image: url("../img/Medical_top.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+/*<!-- 医学顶部结束 -->*/
+/*导航*/
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 90.3%;
+    height: 60px;
+    width: 100%;
+    background: none;
+    border: none;
+
+}
+#bs-example-navbar-collapse-1{
+    padding: 0!important;
+}
+.navbar-default{
+    border-color: none:
+}
+@media (max-width: 768px) {
+    .navbar{
+        margin-right: -200px;
+    }
+}
+.navbar-brand {
+    color: white!important;
+    margin-top: 2px;
+    display: none;
+}
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: block;
+    }
+    .navbar{
+        width: 100%;
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        background: rgba(255,255,255,0.2);
+        border: none;
+    }
+
+}
+.navbar-nav{
+    width: 100%;
+    background:#194971;
+}
+@media (max-width: 768px){
+    .navbar-nav{
+        background: none;
+    }
+}
+.navbar-nav  li{
+    margin-left: 5%;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 5px;
+}
+.navbar-nav  li a{
+    color: white !important;
+    font-size: 18px!important;
+}
+/*<!--导航结束-->*/
+
+/*清除浮动*/
+.clearfix{
+    clear: both;
+}
+/*清除浮动结束*/
+
+/*<!--在线投稿-->*/
+.Medical_Submission{
+    width: 100%;
+  margin-left: 20px;
+}
+
+.Medical_Submission_left{
+    background-color: white;
+    margin-top: -31px;
+    padding: 0;
+
+}
+.Medical_Submission_left .panel-heading{
+    background-image: url("../img/Medical_Submission.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+}
+.Medical_Submission_left .panel{
+    margin-top: 15px;
+    border: none;
+    background-color: #f5f5f5;
+}
+.Medical_Submission_left .list-group{
+    background-color: #f5f5f5;
+}
+.Medical_Submission_left .panel li{
+    margin-top: 52px;
+    border: none;
+    background:#f5f5f5 ;
+}
+.Medical_Submission_left .panel li a{
+    display: inline-block;
+    background: #094c81;
+    width: 95%;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+.Medical_Submission_right{
+    background: white;
+    margin-top: -31px;
+    padding-right: 0;
+}
+.Medical_Submission_right .media-list{
+    margin-top: 15px;
+    background:#f5f5f5 ;
+}
+.Medical_Submission_right .media-left a {
+    width: 90%;
+    height: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Medical_Submission_right .media-left a img{
+    display: inline-block;
+    width: 300px;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.Medical_Submission_right .media-body{
+    font-size: 18px;
+    font-family:"宋体";
+    font-weight: 800;
+    width: 100%;
+    margin-left: 50px!important;
+}
+@media (max-width: 768px) {
+    .Medical_Submission_right .media-body{
+        width: 100%;
+        float: left;
+        margin-left: 0!important;
+    }
+    .Medical_Submission_left{
+        display: inline;
+        float: left;
+        margin-top: 5px;
+    }
+    .Medical_Submission_right{
+        float: right;
+        display: inline;
+    }
+    .Medical_Submission_right img{
+        margin-right: 5px!important;
+    }
+    .Medical_Submission_right .media-left a img{
+        width: 300px;
+        margin-left: 50px
+    }
+    .Medical_Submission_left{
+
+    }
+    .Medical_Submission_right{
+
+    }
+}
+.Medical_Submission_right .media-body p{
+    margin-left: 30px;
+    margin-bottom: -5px;
+    margin-top: 5px;
+}
+/*在线投稿结束*/
+/*投稿指南*/
+.Medical_Guide{
+    height: 454px;
+}
+.Medical_Guide  .panel-heading{
+    background-image: url("../img/Medical_Submission.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+}
+.Medical_Guide .panel{
+    background: #f4f4f4;
+}
+.Medical_Guide ul li{
+    background: #f4f4f4;
+    border:1px dotted #1eb65e;
+    border-top:none;
+    margin-top: 15px;
+}
+.Medical_Guide ul li a{
+    color: black;
+    font-size: 18px;
+    font-family:'微软雅黑 Light';
+    font-weight: 800;
+    text-decoration: none;
+}
+.Medical_Guide_left{
+    padding-left: 0;
+}
+@media (max-width: 768px) {
+    .Medical_Guide_left{
+        margin-left: 20px;
+    }
+}
+.Medical_Guide_right{
+    padding-right: 0;
+}
+.Medical_Recommended_right .form-horizontal{
+    margin-top: 5px;
+}
+.Medical_Recommended_right{
+    padding-right: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.Medical_Recommended_right .form_group .form-control{
+    width: 180px;
+}
+.Medical_Recommended_right .form_group1 .form-control{
+    width: 100px;
+}
+.Medical_Recommended_right .from_inline{
+    margin-top: 30px;
+}
+.Medical_Recommended_right .btn_primary{
+    width: 120px;
+    margin: 30px auto 15px 40%;
+}
+.form-horizontal  .from-control{
+    width: 300px;
+    height: 60px;
+}
+@media (max-width: 768px) {
+    .form_group_password{
+        display: inline-block;
+    }
+    .form_group{
+        display: inline-block;
+    }
+    .form-group{
+        display: inline-block;
+    }
+}
+
+/*投稿指南结束*/
+
+/*年度推荐*/
+.Medical_Recommended .panel-heading{
+    background-image: url("../img/Medical_Submission.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 18px;
+}
+.Medical_Recommended  ul li{
+    border:1px dotted #1eb65e;
+    background: #f5f5f5;
+}
+.Medical_Recommended  ul li:hover a{
+    color: red;
+}
+.Medical_Recommended  ul li:hover span{
+    color: red;
+}
+.Medical_Recommended  ul li:hover {
+    color: red;
+}
+.Medical_Recommended  ul li span{
+    background: none;
+    color: black;
+    font-size: 15px;
+    font-family:'微软雅黑 Light';
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+.Medical_Recommended  ul li span a{
+    color: black;
+}
+.Medical_Recommended_left{
+    padding: 0;
+}
+.Medical_Recommended_left  ul li a{
+    font-size: 18px;
+    font-family:'微软雅黑 Light';
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+.Medical_Recommended_right ul li {
+    font-size: 18px;
+    font-family:'微软雅黑 Light';
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+.Medical_Recommended_right{
+    padding-right: 0;
+}
+/*年度推荐结束*/
+/*广告位置*/
+.Medical_Advertising_all{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.Medical_Advertising_all img{
+    width: 100%;
+}
+/*广告位置结束*/
+
+/*医院图片*/
+.Medical_Hospital{
+    width: 100%;
+    height: 220px;
+    margin-top: 60px;
+}
+.Medical_Hospital .thumbnail{
+    width: 285px;
+    height: 150px;
+}
+.Medical_Hospital img{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 768px){
+    .Medical_Hospital .thumbnail{
+        width: 80%;
+        margin-left: 10%
+
+    }
+}
+/*医院图片结束*/
+/*尾部*/
+.Medical_footer{
+    width: 100%;
+    background:#204d74;
+    margin-bottom: 0;
+    float: left;
+}
+.Medical_footer .thumbnail{
+    width: 250px;
+    margin-left: 25px;
+
+}
+@media (max-width: 768px){
+   .Medical_footer .thumbnail{
+    margin-left: 25%;
+    text-align:center;
+   }
+   .Medical_footer .caption{
+    width: 80%;
+    margin-left: 20%;
+    }
+}
+.Medical_footer h3{
+    color: white;
+}
+.Medical_footer_right{
+    margin-top: 20px;
+}
+.Medical_footer_right ul{
+    display: block;
+    margin-top: 30px;
+}
+.Medical_footer_right ul li{
+    float: left;
+    color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    list-style: none;
+}
+/*首页MAX*/
+/*logo*/
+.Medical_indexMax{
+    width: 100%;
+    height: 750px;
+  /*  height: 1200px;
+    background-image: url("../img/index.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;*/
+    float: left;
+    /*border:1px solid red;*/
+    position: relative;
+}
+.Medical_indexMax .Medical_indexMax_img{
+    width: 100%;
+    height: 100%;
+}
+.Medical_indexMax_logo{
+    width: 100%;
+   /* margin-left: 4%;
+    margin-top: 2%;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.Medical_indexMax_logo span{
+    display: inline-block;
+    /*height: 150px;*/
+}
+.Medical_indexMax_logo span img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+/*.Medical_indexMax_logo span:nth-child(1){
+    width: 280px;
+    height: 200px;
+}*/
+.Medical_indexMax_logo span:nth-child(2){
+    width: 80%;
+}
+/*二维码*/
+.Medical_indexMax_code{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:15%;
+}
+@media (max-width: 768px) {
+    .Medical_indexMax_code{
+    position: absolute;
+    left: 0;
+    top:20%;
+}
+.Medical_indexMax_logo{
+    width: 70%;
+    margin-left: 35%;
+}
+  .Medical_indexMax_img{
+    visibility: hidden;
+  }
+}
+.Medical_indexMax_code .row{
+    height: 100%;
+
+    text-align:center;
+}
+.Medical_indexMax_code .row h3{
+    display: inline-block;
+    font-size: 30px;
+    color: #a62b2b;
+}
+
+.Medical_indexMax_code .row h3:nth-child(2){
+    margin-left: 30px;
+}
+.Medical_indexMax_code .row .thumbnail{
+    background: #f4f8fe;
+    border: none;
+    margin-top: 20px;
+}
+.Medical_indexMax_code .row .thumbnail img{
+    width: 60%;
+}
+.Medical_indexMax_code_img2{
+    /*width:500px;*/
+    background:#f4f8fe;
+}
+.Medical_indexMax_code_img2 img{
+    width: 100%;
+    /*margin-left: 15%;*/
+}
+/*轮播图*/
+.Medical_indexMax_banner{
+    width: 100%;
+    margin-top: -180px;
+}
+.Medical_indexMax_banner_img{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+    background: #eee;
+    /*background: #dcdcdc;*/
+}
+/*轮播css*/
+*{ margin: 0; padding: 0; }
+
+#yixing{
+
+    width:768px;
+    height: 190px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+   }
+
+.anniu .zuoanniu{
+
+    display: block;
+    border: 3px solid #75c3e7;
+    color: #75c3e7;
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    position: absolute;
+    top:35%;left:0;
+    text-align: center;
+    line-height: 95px;
+    cursor: pointer;
+
+  }
+
+.anniu .youanniu{
+
+    display: block;
+    border: 3px solid #75c3e7;
+    color: #75c3e7;
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    text-align: center;
+    line-height: 95px;
+    position: absolute;
+    top:35%;right:0;
+    cursor: pointer;
+
+    }
+
+#yixing ul{
+
+ list-style:none;
+ margin: 0 auto
+}
+
+#yixing ul li{
+
+ position: absolute;
+ background: #204d74;
+ text-align: center;
+ margin-left: 80px;
+ font-size: 18px
+
+}
+@media (max-width: 768px) {
+
+    #yixing ul li{
+        margin-left: -60px;
+    }
+
+}
+
+
+#yixing ul li a{
+
+    text-decoration: none;
+    color:white;
+}
+
+#yixing ul li img{
+
+    width: 100%;
+     height: 100%;
+ }
+
+
+
+#yixing ul li.no0{ width:102px; height:102px; top:30px; left:-70px;line-height: 102px }
+
+#yixing ul li.no1{ width:124px; height:124px; top:30px; left:-83px; line-height: 124px }
+
+#yixing ul li.no2{ width:148px; height:148px; top:20px; left:58px;line-height: 148px  }
+
+#yixing ul li.no3{ width:179px; height:179px; top:5px; left:220px;line-height: 179px;border: 3px solid #75c3e7  }
+
+#yixing ul li.no4{ width:148px; height:148px; top:20px; left:415px;line-height: 148px  }
+
+#yixing ul li.no5{ width:124px; height:124px; top:30px; left:575px;line-height: 124px  }
+
+#yixing ul li.no6{ width:102px; height:102px; top:30px; left:693px;line-height: 102px  }
+
+#yixing ul li.denghou{display: none;}
+/*轮播css结束*/
+/*底部*/
+.Medical_Footer{
+    width: 100%;
+    height: 200px;
+    background: #204d74;
+    /*margin-top: 20px;*/
+    margin-bottom: 0;
+    float: left;
+}
+.Medical_Footer span{
+    display: block;
+    color: white;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.Medical_Footer span:nth-child(1){
+    margin-left: 40%;
+}
+.Medical_Footer span:nth-child(2) {
+    margin-left: 25%;
+}
+.Medical_Footer span:nth-child(3) {
+    margin-left: 20%;
+}
